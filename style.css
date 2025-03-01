@@ -49,7 +49,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background: url(img/pexels-oguzhan-oncu-349382156-16040234.jpg)fixed;
+  background: url(img/background.jpg)fixed;
 }
 
 ::-webkit-scrollbar {
@@ -128,7 +128,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background: url(img/pexels-oguzhan-oncu-349382156-16040234.jpg);
+  background: url(img/background.jpg);
   box-shadow: 0 1px 4px rgba(255, 255, 255, 0.15);
   border-bottom: 2px solid white;
 }
@@ -434,7 +434,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background: url(img/pexels-oguzhan-oncu-fooder.jpg);
+  background: url(img/background-fooder.jpg);
   color: var(--second-color);
   text-align: center;
   font-weight: var(--font-semi);
