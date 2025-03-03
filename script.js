@@ -47,7 +47,7 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2000,
-    delay: 200,
+    delay: 100,
     //     reset: true
 });
 
@@ -60,3 +60,10 @@ sr.reveal('.skills__data, .work__img, .contact__input', { interval: 200 });
 function msg() {
     alert("Caution: Currently Not Using This Application");
 }
+/*======== nav toggle ==========*/
+const navToggle = document.getElementById('nav-toggle');
+const navMenu = document.getElementById('nav-menu');
+
+navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+});

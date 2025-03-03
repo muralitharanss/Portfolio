@@ -7,37 +7,33 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/icon/logo.jpg">
-
     <!-- =====BOX ICONS===== -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-
     <title>Portfolio</title>
-
 </head>
 
 <body>
     <!--===== HEADER =====-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
+    <header class="l-header" >
+        <nav class="nav bd-grid" id="menuScreen">
             <div>
                 <a href="#" class="nav__logo">welcome</a>
-                <img class="logo" src="img/icon/logo 1.jpg">
-
             </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
+            <div class="nav__menu" id="nav-menu" >
+                <ul class="nav__list" >
                     <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
 
             <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+                 <i class='bx bx-menu' ></i> 
+
             </div>
         </nav>
     </header>
@@ -51,13 +47,15 @@
 
                 <a href="https://drive.google.com/file/d/1bikFWJPoeXbtrR8OE3-_vamLmWJZ5P-T/view?usp=drivesdk"
                     class="button">Resume</a>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/muralitharan-s-341605325" class="home__social-icon"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/muralitharanss" class="home__social-icon"><i
+                            class='bx bxl-github'></i></a>
+                </div>
             </div>
 
-            <div class="home__social">
-                <a href="https://www.linkedin.com/in/muralitharan-s-341605325" class="home__social-icon"><i
-                        class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/muralitharanss" class="home__social-icon"><i class='bx bxl-github'></i></a>
-            </div>
 
             <div class="home__img">
                 <image class="home__blob-img" src="img/profile pic.png" alt="profile picture" />
@@ -89,28 +87,27 @@
         </section>
 
         <!--===== Education =====-->
-        <section class="work section" id="work">
+        <section class="education section" id="education">
             <h2 class="section-title">Education</h2>
 
-            <div class="work__container bd-grid">
-                <a href="#work" class="work__img">
+            <div class="education__container bd-grid">
+                <a href="" class="education__img">
                     <img src="img/college.jpg" alt="">
-
-                    <ol><b>UG</b></ol>
-                    <ol>M.A.M college of engineering and technology-Trichy</ol>
-                    <ol>B.E. - computer science and engineering</ol>
-                    <ol>percentage = loading...</ol>
-
+                    <ol>
+                        <li><b>UG</b></li>
+                        <li>M.A.M college of engineering and technology-Trichy</li>
+                        <li>B.E. - computer science and engineering</li>
+                        <li>percentage = loading...</li>
+                    </ol>
                 </a>
-                <a href="" class="work__img">
+                <a href="" class="education__img">
                     <img src="img/school.avif" alt="">
-
-                    <ol><b>10th & 12th</b></ol>
-                    <ol>Chellammal matric.hr sec school-Trichy</ol>
-                    <ol>12th - 73%</ol>
-                    <ol>10th - 62%</ol>
-
-
+                    <ol>
+                        <li><b>10th & 12th</b></li>
+                        <li>Chellammal matric.hr sec school-Trichy</li>
+                        <li>12th - 73%</li>
+                        <li>10th - 62%</li>
+                    </ol>
                 </a>
 
             </div>
@@ -176,7 +173,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="skill__img">
                     <img src="img/skills.jfif" alt="" class="skills__img">
                 </div>
             </div>
@@ -192,8 +189,7 @@
                 <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
                     <input type="hidden" name="access_key" value="945ec432-7906-46ee-9f8b-1ebbacc37bbd">
                     <input type="text" placeholder="Name" name="name" required class="contact__input">
-                    <input type="mail" placeholder="Email" name="email" value="muralidharansundhar@gmail.com" required
-                        class="contact__input">
+                    <input type="mail" placeholder="Email" name="email" required class="contact__input">
                     <textarea name="" id="" cols="2" rows="8" name="message" required class="contact__input"></textarea>
                     <button type="submit" class="contact__button button">SUBMIT</button>
                 </form>
@@ -209,8 +205,7 @@
             <a href="#" onclick="msg()" class="footer__icon"><i class='bx bxl-instagram'></i></a>
             <a href="#" onclick="msg()" class="footer__icon"><i class='bx bxl-twitter'></i></a>
         </div>
-        <p class="footer__copy">Thank you for visiting my portfolio. Please feel free to contact me if you'd like to
-            learn more or discuss potential opportunities.</p>
+        <p class="footer__copy">Thank you for visiting my portfolio. Please feel free to contact me .</p>
     </footer>
 
 
