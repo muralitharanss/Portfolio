@@ -786,7 +786,7 @@ body {
   }
 
   .skills {
-      padding: 1rem 0.5rem;
+      padding: 1rem 0rem;
   }
 
   .skills__container {
@@ -942,5 +942,16 @@ body {
 
   .footer__icon {
       font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 480px){
+  .nav__menu{
+    display: none;
+  }
+  .nav__toggle{
+    display: block;
+  }
+  .show{
+    display: block;
   }
 }
