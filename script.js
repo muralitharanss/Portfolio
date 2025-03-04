@@ -62,7 +62,7 @@ function msg() {
 }
 /*======== nav toggle ==========*/
 const navToggle = document.getElementById('nav-toggle');
-const navMenu = document.getElementById('nav-menu');
+const navMenu = document.getElementById('nav');
 
 navToggle.addEventListener('click', () => {
     navMenu.classList.toggle('show');
