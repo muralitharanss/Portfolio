@@ -216,7 +216,6 @@ body {
 .about {
   padding: 4rem 2rem;
 }
-
 .section-title {
   position: relative;
   text-align: center;
@@ -951,7 +950,7 @@ body {
   .nav__toggle{
     display: block;
   }
-  .show{
+  .nav__menu.show{
     display: block;
   }
 }
