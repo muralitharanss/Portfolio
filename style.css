@@ -1005,12 +1005,14 @@ body {
     margin-top: 0;
     font-size: 5px;
   }
-
+ .nav__link{
+  font-size: 0.6rem;
+ }
   .nav__toggle {
     display: block;
     position: absolute;
   }
   .skills__container{
-    padding: 1rem 2rem;
+    margin-right: 2rem;
   }
 }
